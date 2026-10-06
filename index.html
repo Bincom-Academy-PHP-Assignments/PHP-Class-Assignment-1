@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Musa - Student Profile &amp; Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Header & Navigation -->
+  <header>
+    <div class="container">
+      <h1>Shuraihu Usman</h1>
+      <p>PHP / Backend Intern &bull; Bincom Academy Trainee</p>
+      <nav>
+        <ul>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#learning">What I'm Learning</a></li>
+          <li><a href="#hobbies">Hobbies &amp; Interests</a></li>
+          <li><a href="#contact">Contact Me</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Content Container -->
+  <main class="container">
+
+    <!-- About Me Section -->
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        Hello! Welcome to my personal webpage. I am currently a web development trainee at Bincom Academy, taking my
+        first steps into software engineering and web technologies.
+      </p>
+      <p>
+        I have a strong passion for problem-solving, creating digital tools, and building intuitive user experiences on
+        the web. My goal is to master both frontend and backend technologies to build impactful web applications.
+      </p>
+    </section>
+
+    <!-- Learning Journey Section -->
+    <section id="learning">
+      <h2>What I Am Learning</h2>
+      <p>
+        My journey started with the fundamentals of web architecture, setting up a local development environment, and
+        mastering webpage markup and styling:
+      </p>
+      <ul>
+        <li><strong>HTML5:</strong> Semantic page structuring, forms, headings, lists, and links.</li>
+        <li><strong>CSS3:</strong> Box model spacing (margins and padding), styling colors, typography, and page layout.
+        </li>
+        <li><strong>Development Tools:</strong> Code editors (VS Code / Sublime Text) and browser developer tools for
+          testing.</li>
+        <li><strong>Server Foundations:</strong> Configuring local servers like XAMPP and WAMP to run web projects.</li>
+      </ul>
+    </section>
+
+    <!-- Goals & Interests Section -->
+    <section id="hobbies">
+      <h2>Hobbies &amp; Personal Interests</h2>
+      <p>
+        When I am not coding or learning new technologies, here are some of the activities I enjoy:
+      </p>
+      <ol>
+        <li>Reading technology articles and tech industry blogs</li>
+        <li>Exploring open-source software and digital tools</li>
+        <li>Playing strategic video games and chess</li>
+        <li>Collaborating on team challenges and learning with peers</li>
+      </ol>
+
+      <div class="quote-box">
+        <p><em>"The secret to getting ahead is getting started."</em> &mdash; Mark Twain</p>
+      </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section id="contact">
+      <h2>Get In Touch</h2>
+      <p>
+        Have a question, feedback, or want to connect? Send me a message using the form below:
+      </p>
+
+      <form action="#" method="get">
+        <div class="form-group">
+          <label for="fullname">Your Name:</label>
+          <input type="text" id="fullname" name="fullname" placeholder="Enter your full name" required>
+        </div>
+
+        <div class="form-group">
+          <label for="email">Your Email:</label>
+          <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+        </div>
+
+        <div class="form-group">
+          <label for="subject">Subject:</label>
+          <select id="subject" name="subject">
+            <option value="general">General Inquiry</option>
+            <option value="networking">Networking &amp; Collaboration</option>
+            <option value="feedback">Website Feedback</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" placeholder="Type your message here..." required></textarea>
+        </div>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2026 Shuraihu Usman &bull; Built with HTML &amp; CSS for Bincom Academy Assignment 1</p>
+    </div>
+  </footer>
+
+</body>
+
+</html>
